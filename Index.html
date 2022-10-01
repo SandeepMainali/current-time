@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+     <meta name="viewport" content="width=device-width,inititl-scale=1.0">
+    <title>Display Time on Website</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+        <img src="423-image.png">
+        <h1 id="current-time"></h1>
+        <div class="quotes">
+            <p>TODAY'S QUOTES </p>
+            <h2>कसैले रिसमा हजुरसँग झगडा गर्छ भने,हजुर उस्को रिसको झगडामा घृणा हैन माया हेर्ने प्रयास गर्नुस।”</h2>
+
+
+        </div>
+        </div>
+
+        <script>
+            let time = document.getElementById("current-time");
+            
+            setInterval(() => {
+                let d = new Date();
+                time.innerHTML = d.toLocaleTimeString();
+            },1000);
+        </script>
+    </body>
+    </html>

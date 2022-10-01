@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "popins", sans-serif;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background:#90EE90;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.container img{
+    width: 85%;
+}
+.container h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:#fff;
+    font-size: 90px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.quotes{
+    width:100%;
+    position:absolute;
+    text-align: center;
+    bottom: 15%;
+    color:#fff;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.quotes h2{
+    font-size:25px;
+    margin-top: 10px;
+    font-weight: 500;
+    color:red;
+    
+}
+
